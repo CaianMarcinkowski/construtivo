@@ -5,7 +5,7 @@ const http = require('http');
 const path = require('path');
 const app = express()
 
-const PORT = 3000
+const PORT = 8080
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.listen(PORT, () => {
-    console.log('listening on port  ' + PORT)
+    console.log('listening on port: ' + PORT)
 })
 
 app.post('/', (req, res) => {
