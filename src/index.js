@@ -5,7 +5,7 @@ const http = require('http');
 const path = require('path');
 const app = express()
 
-const PORT = process.env.PORT
+const PORT = 3000
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
