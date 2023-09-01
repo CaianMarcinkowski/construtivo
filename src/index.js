@@ -26,7 +26,7 @@ app.post('/', (req, res) => {
       console.log('O arquivo foi criado!');
     });
     
-    res.send('Link de acesso do download do arquivo construtivo: -> http://15.228.166.167:3000/download')
+    res.send('Link de acesso do download do arquivo construtivo: -> http://52.67.24.238:8080/download')
 })
 
 app.get('/download', (req, res) => {
